@@ -1,6 +1,8 @@
-# React + Vite
+# README
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Thank you for checking out the ZAU worst weather checker the only thing i ask is that you dont overload the request API as it's only permited 4,000 calls per day
+
+Made by IcedT456 using the git Vite+React plugin
 
 Currently, two official plugins are available:
 
