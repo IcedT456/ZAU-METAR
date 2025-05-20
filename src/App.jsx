@@ -92,11 +92,12 @@ function App() {
     >
       <div
         style={{
-          backdropFilter: "blur(5px)",
+          backdropFilter: "blur(6px)",
           backgroundColor: "rgba(0, 0, 0, 0.5)",
           width: "100%",
           height: "100%",
           display: "flex",
+          flexDirection: "column",
           alignItems: "center",
           justifyContent: "center",
           color: "white",
@@ -144,8 +145,12 @@ function App() {
             </div>
           ))}
 
-          <div style={{ marginTop: "2rem", fontSize: "1.2rem", opacity: 0.8 }}>
+          <div style={{ marginTop: "2rem", fontSize: "1.2rem", opacity: 0.85 }}>
             Current Zulu Time: {zuluTime}
+          </div>
+
+          <div style={{ marginTop: "1rem", fontSize: "0.9rem", opacity: 0.6 }}>
+            Made by IcedT456 | All content contained here is approved only for use on the VATSIM network.
           </div>
         </div>
       </div>
